@@ -1,0 +1,260 @@
+  * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #000;
+      color: white;
+      overflow-x: hidden;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 40px;
+      position: absolute;
+      width: 100%;
+      z-index: 10;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .logo span {
+      color: orange;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 14px;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: orange;
+    }
+
+    .hero {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 120px 60px;
+      height: 100vh;
+      background: linear-gradient(to right, #000000, #111111);
+      position: relative;
+    }
+
+    .hero::after {
+      content: '';
+      background: url('./1.png') no-repeat center right;
+      background-size: cover;
+      opacity: 0.25;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      z-index: 0;
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 2;
+      max-width: 600px;
+    }
+
+    .hero h1 {
+      font-size: 64px;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 16px;
+      line-height: 1.6;
+      margin-bottom: 30px;
+    }
+
+    .btn {
+      background-color: orange;
+      color: white;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background-color: darkorange;
+    }
+    .las{
+        display: flex;
+        gap: 24px;
+    }
+    
+mark{
+    background-color: rgba(240, 248, 255, 0);
+    color: rgba(245, 117, 32, 1);
+}
+main{
+     background-color: #aaaaaa;
+}
+.container h1{
+text-align: center;
+color: rgba(16, 16, 16, 1);
+}
+.halla p{
+   margin-top: 50px;
+    width: 315px;
+    height: 87px;
+
+}
+.varlar{
+    width: 400px;
+    height: 462px;
+    background-color: rgba(245, 117, 32, 1);
+}
+h4{
+    margin-top: 24px;
+}
+.halla{
+   margin-left:27px ;  
+}
+.varka{
+    width: 400px;
+    height: 462px;
+    background-color: rgba(16, 16, 16, 1);
+}
+.barsa{
+  color: rgba(255, 255, 255, 1);
+}
+.kanfiguratsia{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+}
+.contact-section {
+  height:px;
+  width: 100%;
+  background: linear-gradient(to right, #f97316, #f97316);
+  color: white;
+  padding: 60px 0;
+}
+
+.contact-content {
+ 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.form-container {
+  flex: 1 1 500px;
+  max-width: 600px;
+}
+
+.form-container h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+  font-weight: bold;
+  line-height: 1.3;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-row {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.form-row input {
+  flex: 1;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  width: 100%;
+  outline: none;
+}
+
+.contact-form button {
+  padding: 14px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: white;
+  color: orange;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #f0f0f0;
+}
+
+
+.image-container img {
+margin-right: -250px;
+  width: 650px;
+height: 400px;
+}.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.footer-logo h2 {
+  font-size: 36px;
+  color: white;
+  font-weight: normal;
+}
+
+.footer-section h4 {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 5px;
+}
+
+.footer-section ul li a {
+  color: #cccccc;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+  color: white;
+}
